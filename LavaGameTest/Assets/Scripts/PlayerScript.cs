@@ -98,7 +98,10 @@ public class PlayerScript : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        transform.position = playerStartPosition;
+        if (!isJumping)
+        {
+            transform.position = playerStartPosition;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)

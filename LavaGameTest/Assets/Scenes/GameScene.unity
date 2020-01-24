@@ -364,7 +364,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0.19140625, z: 0.04296875, w: -0.05078125}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -928,6 +928,11 @@ PrefabInstance:
       propertyPath: backflipAnimation
       value: 
       objectReference: {fileID: 7400000, guid: d5bd12403deba994b8e5571345b8e20f, type: 2}
+    - target: {fileID: 3051020640492426545, guid: 0bb5e42301c90314c8791bda6053711b,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bb5e42301c90314c8791bda6053711b, type: 3}
 --- !u!1001 &5666696477877430831
